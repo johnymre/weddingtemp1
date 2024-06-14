@@ -11,11 +11,7 @@ import 'leaflet/dist/leaflet.css';
 import L from 'leaflet';
 
 export default function Home() {
-    const position = [14.0996375, 120.8796533];
     const icon = L.icon({ iconUrl: "/leaflet/marker-icon.png" });
-
-    const marker = useRef<any>(null)
-    
   return (
    <>
     <section className="mt-44 mb-44 h-full flex items-center justify-center dark:bg-gray-900 bg-fixed bg-cover bg-center" >
@@ -30,23 +26,16 @@ export default function Home() {
                         height: "50vh",
                         width: "100%",
                         }}
-                        center={[14.0996375, 120.8796533]}
+                        center={[14.0996427, 120.8796533]}
                         zoom={13}
-
-                        whenReady={() => {
-                            setTimeout(() => {
-                                marker.current.openPopup();
-                            }, 100);
-                            }}
-
-                            className="border-0 border-solid rounded-lg shadow-lg"
+                        className="border-0 border-solid rounded-lg shadow-lg"
                     >
                         {/* add google map tile url  */}
                         <TileLayer
                         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
                         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                         />
-                        <Marker ref={marker} position={position} icon={icon} >
+                        <Marker position={[14.0996427, 120.8796533]} icon={icon} >
                         <Popup className="!left-[-160px] !opacity-100">
                             <span className="font-bold text-lg">Hillcreek Gardens Tagaytay</span> <br /> 134 Tagaytay - Alfonso Road Brgy, Alfonso, 4123 Cavite
                         </Popup>
