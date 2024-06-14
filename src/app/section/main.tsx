@@ -4,6 +4,7 @@ import Image from "next/image"
 import memoji from "../images/memoji.png"
 import { Card } from "flowbite-react";
 import { motion  } from "framer-motion";
+import "../globals.css";
 
 export default function Home() {
   const name = "John & Maria".split(" ");
