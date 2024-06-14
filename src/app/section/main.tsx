@@ -13,7 +13,7 @@ export default function Home() {
   return (
    <>
    
-    <section className="h-screen 2xl:h-screen flex items-center justify-center dark:bg-gray-900 bg-[url('./images/mainbg.jpg')] bg-fixed bg-cover bg-center" >
+    <section className="h-screen 2xl:h-screen flex items-center justify-center dark:bg-gray-900 bg-[url('./images/mainbg.jpg')] md:bg-fixed bg-cover bg-center" >
       <div className="w-full h-full absolute z-0 bg-black opacity-50"></div>
       <div className="relative z-1">
           <div className="pinyon-script-regular text-6xl md:text-9xl">

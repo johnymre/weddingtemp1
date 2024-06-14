@@ -7,8 +7,8 @@ import Favicon from './images/favicon.ico';
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "John Ermy",
-  description: "John Ermy's Portfolio",
+  title: "Wedding Template 1",
+  description: "Wedding Template of E-Invitation",
   icons: [{ rel: 'icon', url: Favicon.src }],
 };
 
