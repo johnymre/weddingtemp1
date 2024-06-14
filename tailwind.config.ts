@@ -41,7 +41,7 @@ const config: Config = {
         '128': '29.3rem',
       },
       fontFamily: {
-        display: 'Pinyon Script', // Adds a new `font-display` class
+        cursive: ['Pinyon-Script'], // Adds a new `font-display` class
       }
     },
   },

@@ -5,14 +5,13 @@ import memoji from "../images/memoji.png"
 import { Card } from "flowbite-react";
 import { motion  } from "framer-motion";
 
-
-
 export default function Home() {
   const name = "John & Maria".split(" ");
   const date = "06.29.2024".split(" ");
 
   return (
    <>
+   
     <section className="h-screen 2xl:h-screen flex items-center justify-center dark:bg-gray-900 bg-[url('./images/mainbg.jpg')] bg-fixed bg-cover bg-center" >
       <div className="w-full h-full absolute z-0 bg-black opacity-50"></div>
       <div className="relative z-1">
