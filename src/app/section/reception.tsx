@@ -12,6 +12,7 @@ import L from 'leaflet';
 
 export default function Home() {
     const icon = L.icon({ iconUrl: "/leaflet/marker-icon.png" });
+    const isBrowser = typeof window !== 'undefined';
   return (
    <>
     <section className="mt-44 mb-44 h-full flex items-center justify-center dark:bg-gray-900 bg-fixed bg-cover bg-center" >
@@ -29,6 +30,7 @@ export default function Home() {
                         center={[14.0996427, 120.8796533]}
                         zoom={13}
                         className="border-0 border-solid rounded-lg shadow-lg"
+                        
                     >
                         {/* add google map tile url  */}
                         <TileLayer
