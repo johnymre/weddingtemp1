@@ -14,7 +14,7 @@ export default function Home() {
     const position = [14.0996375, 120.8796533];
     const icon = L.icon({ iconUrl: "/leaflet/marker-icon.png" });
 
-    const marker = useRef(null);
+    const marker = useRef<any>(null)
     
   return (
    <>
