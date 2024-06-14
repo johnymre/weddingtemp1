@@ -16,7 +16,7 @@ export default function Home() {
     <section className="mt-44 mb-44 h-full flex items-center justify-center dark:bg-gray-900 bg-fixed bg-cover bg-center" >
         <div className="flex-col w-full">
             <div className="mb-12">
-                <h2 className="text-center font-['Pinyon_Script'] text-8xl text-yellow-800">Save the Date</h2>
+                <h2 className="text-center pinyon-script-regular text-8xl text-yellow-800">Save the Date</h2>
             </div>
             <motion.div
        

@@ -16,7 +16,7 @@ export default function Home() {
     <section className="h-screen 2xl:h-screen flex items-center justify-center dark:bg-gray-900 bg-[url('./images/mainbg.jpg')] bg-fixed bg-cover bg-center" >
       <div className="w-full h-full absolute z-0 bg-black opacity-50"></div>
       <div className="relative z-1">
-          <div className="font-['Pinyon_Script'] text-6xl md:text-9xl">
+          <div className="pinyon-script-regular text-6xl md:text-9xl">
               {name.map((el, i) => (
                 <motion.span
                   initial={{ opacity: 0 }}
