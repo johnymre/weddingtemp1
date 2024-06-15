@@ -8,7 +8,7 @@ import "../globals.css";
 
 export default function Home() {
   const name = "John & Maria".split(" ");
-  const date = "06.29.2024".split(" ");
+  const date = "JOIN US AS WE EMBARK ON A JOURNEY OF LOVE, JOY, AND ETERNAL HAPPINESS.".split(" ");
 
   return (
    <>
@@ -16,7 +16,7 @@ export default function Home() {
     <section className="h-screen 2xl:h-screen flex items-center justify-center dark:bg-gray-900 bg-[url('./images/mainbg.jpg')] md:bg-fixed bg-cover bg-center" >
       <div className="w-full h-full absolute z-0 bg-black opacity-50"></div>
       <div className="relative z-1">
-          <div className="pinyon-script-regular text-6xl md:text-9xl">
+          <div className="pinyon-script-regular text-6xl md:text-[10rem] text-center">
               {name.map((el, i) => (
                 <motion.span
                   initial={{ opacity: 0 }}
@@ -30,7 +30,7 @@ export default function Home() {
                   {el}{" "}
                 </motion.span>
               ))}
-              <div className="text-center text-xl md:text-4xl">
+              <div className="font-[Poppins] text-center text-base md:text-xl font-light md:mt-[-2rem]">
                {date.map((el, i) => (
                 <motion.span
                   initial={{ opacity: 0 }}

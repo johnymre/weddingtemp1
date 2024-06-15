@@ -8,15 +8,29 @@ import "../globals.css"
 
 
 export default function Home() {
-
+    const name = "Save the Date".split(" ");
 
   return (
    <>
    
-    <section className="mt-44 mb-44 h-full flex items-center justify-center dark:bg-gray-900 bg-fixed bg-cover bg-center" >
+    <section className="mt-16 mb-16 md:mt-44 md:mb-44 h-full flex items-center justify-center dark:bg-gray-900 bg-fixed bg-cover bg-center" >
         <div className="flex-col w-full">
             <div className="mb-12">
-                <h2 className="text-center pinyon-script-regular text-8xl text-yellow-800">Save the Date</h2>
+                <div className="pinyon-script-regular text-yellow-800 text-6xl md:text-8xl text-center">
+              {name.map((el, i) => (
+                <motion.span
+                  initial={{ opacity: 0 }}
+                  whileInView={{ opacity: 1 }}
+                  transition={{
+                    duration: 0.5,
+                    delay: i / 10,
+                  }}
+                  key={i}
+                >
+                  {el}{" "}
+                </motion.span>
+              ))}
+        </div>
             </div>
             <motion.div
        
@@ -26,7 +40,7 @@ export default function Home() {
        transition={{ delay: 0.5 }}
        
        >
-            <div  className="bg-white ml-10 mr-10 md:m-auto md:w-4/12 shadow-lg overflow-hidden rounded-lg mx-auto mt-8 text-gray-900 font-semibold text-center">
+            <div  className="bg-white/30 backdrop-blur-xl ml-10 mr-10 md:m-auto md:w-4/12 shadow-lg overflow-hidden rounded-lg mx-auto mt-8 text-gray-900 font-semibold text-center">
                 <div className="flex items-center justify-around px-4 py-6">
                     <div className="text-2xl font-extrabold">June 2024</div>
                 </div>
