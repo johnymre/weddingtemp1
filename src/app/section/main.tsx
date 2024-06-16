@@ -30,7 +30,7 @@ export default function Home() {
                   {el}{" "}
                 </motion.span>
               ))}
-              <div className="font-[Poppins] text-center text-base md:text-xl font-light md:mt-[-2rem]">
+              <div className="font-[Poppins] text-center text-sm md:text-xl font-light md:mt-[-2rem]">
                {date.map((el, i) => (
                 <motion.span
                   initial={{ opacity: 0 }}

@@ -9,7 +9,9 @@ import RSVP from "./section/rsvp"
 import "./globals.css";
 
 
+
 export default function Home() {
+
    return (
    <>
     <Main /> 
@@ -17,7 +19,7 @@ export default function Home() {
     <Reception /> 
     <Dresscode />
     <RSVP />
-    <audio id="audio" loop autoPlay> 
+    <audio className="absolute bottom-[20px] right-[20px] sticky z-[9999] ml-auto" id="audio" loop controls autoPlay={true}> 
         <source src="/bgmusic.mp3" type="audio/mpeg" />
     </audio>
 </>
