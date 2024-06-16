@@ -29,7 +29,6 @@
     font-family: "Pinyon Script", cursive;
     font-weight: 400;
     font-style: normal;
-    src: url(/fonts/PinyonScript-Regular.ttf), format('ttf');
   } 
 
   html {
@@ -38,18 +37,16 @@
   }
 
   h1 {
-    font-family: 'Pinyon-Script';
+    font-family: 'Pinyon Script';
     font-style: normal;
     font-weight: 400;
     font-display: swap;
-    src: url(/fonts/PinyonScript-Regular.ttf), format('ttf');
   }
 
   .pinyon-script-regular {
     font-family: "Pinyon Script", cursive;
     font-weight: 400;
     font-style: normal;
-    src: url(/fonts/PinyonScript-Regular.ttf), format('ttf');
   }
 }
 
