@@ -22,7 +22,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
       <meta property="og:image" content="https://johnermy.vercel.app/featuredimg.png" />
-     
+      <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" />
       </head>
       <body className="body">
       {/* <Header /> */}
