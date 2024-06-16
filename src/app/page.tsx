@@ -12,11 +12,15 @@ import "./globals.css";
 export default function Home() {
    return (
    <>
+    
     <Main /> 
     <Calendar />  
     <Reception /> 
     <Dresscode />
     <RSVP />
+    <audio id="audio" loop autoPlay> 
+        <source src="/bgmusic.mp3" type="audio/mpeg" />
+    </audio>
 </>
   );
 }
