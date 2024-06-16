@@ -30,21 +30,7 @@ export default function Home() {
                   {el}{" "}
                 </motion.span>
               ))}
-              <div className="font-[Poppins] text-center text-sm md:text-xl font-light md:mt-[-2rem]">
-               {date.map((el, i) => (
-                <motion.span
-                  initial={{ opacity: 0 }}
-                  whileInView={{ opacity: 1 }}
-                  transition={{
-                    duration: 1.5,
-                    delay: i / 50,
-                  }}
-                  key={i}
-                >
-                  {el}{" "}
-                </motion.span>
-              ))}
-              </div>
+              
         </div>
        {/* <motion.div
        
